@@ -26,6 +26,18 @@ h6 {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
+.logo {
+  
+  font-size: 24px;
+  color: #111111;
+  margin: 0;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.logo:hover {
+  text-decoration: none;
+  
+}
 
 h1 {
   font-size: 60px;
@@ -95,12 +107,20 @@ ol {
 }
 
 .section-title h3 {
+  font-size: 30px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  color: #111111;
+    
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
 }
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 16px;
+    color: #636363;
+    line-height: 1.6;
 }
 
 .set-bg {
@@ -243,6 +263,7 @@ ol {
   padding-top: 20px;
 }
 
+
 .header-info {
   display: inline-block;
   float: right;
@@ -334,6 +355,8 @@ ol {
   -webkit-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
+  margin-bottom: -10px;
+  text-decoration: none;
 }
 
 .main-menu li a:hover {
@@ -514,6 +537,7 @@ ol {
   font-style: italic;
   text-transform: capitalize;
   color: #fff;
+  margin-top: auto;
   margin-bottom: 10px;
   padding-top: 15px;
 }
@@ -556,6 +580,10 @@ ol {
 .service-item .service-content h4 {
   margin-bottom: 15px;
   font-weight: 400;
+  color: #111111;
+   
+  font-size: 24px;
+    font-family: "Poppins", sans-serif;
 }
 
 /*---------------------
@@ -1028,6 +1056,9 @@ ol {
 
 .footer-widget .about-widget p {
   margin-bottom: 35px;
+  font-size: 16px;
+    
+    line-height: 1.6;
 }
 
 .footer-widget .social a {
@@ -1048,6 +1079,7 @@ ol {
 
 .footer-widget .dobule-link ul a:hover {
   color: #f6783a;
+  text-decoration: none;
 }
 
 .footer-widget .dobule-link ul li:last-child a {
@@ -1146,6 +1178,10 @@ ol {
 .about-text h5 {
   font-weight: 400;
   margin-bottom: 12px;
+  color: #111111;
+   
+  font-size: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 .about-text .about-list {
@@ -1177,6 +1213,7 @@ ol {
 .testimonial-slider .ts-text p {
   font-size: 18px;
   margin-bottom: 20px;
+  font-weight: 100;
 }
 
 .testimonial-slider .ts-text h5 {
@@ -1776,6 +1813,7 @@ ol {
     padding: 15px;
     display: block;
     border-top: 1px solid #212031;
+    margin-bottom: 0px;
   }
   .main-menu li a:hover {
     background-color: transparent;

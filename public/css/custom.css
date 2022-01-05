@@ -54,6 +54,9 @@
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
+  color: #111111;
+    
+    font-family: "Poppins", sans-serif;
 }
 .form-contact label {
   color: #ed3c0d;
@@ -102,12 +105,15 @@
   background: #020031;
   color: #fff !important;
   border: 1px solid #020031;
+  text-decoration: none;
 }
 .boxed-btn:active {
   transform: scale(1.1);
+  text-decoration: none;
 }
 .boxed-btn:focus {
   outline: none;
+  text-decoration: none;
 }
 .boxed-btn.large-width {
   width: 220px;
@@ -175,11 +181,25 @@
 /* footer */
 .about-widget h4 {
   color: #fff;
+  font-size: 24px;
 }
 
 /* Home */
 .site-btn a {
   color: #fff;
+  text-decoration: none;
+}
+.site-btn a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.site-btn a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.site-btn a:focus {
+  color: #fff;
+  text-decoration: none;
 }
 
 .about-list li i {
